@@ -1,0 +1,25 @@
+{
+  "name": "n-rules",
+  "version": "0.0.0",
+  "description": "Business Process Management For Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/logiXbomb/n-rules.git"
+  },
+  "keywords": [
+    "BPM",
+    "Business",
+    "Process",
+    "Management"
+  ],
+  "author": "Seth Lowie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/logiXbomb/n-rules/issues"
+  },
+  "homepage": "https://github.com/logiXbomb/n-rules#readme"
+}
