@@ -1,0 +1,8 @@
+{
+  "name": "Reserve Seat",
+  "tasks": [{
+      "name": "askForReservationDetails",
+      "type": "UserTask",
+      "description": "Ask the user for time and party number"
+  }]
+}
