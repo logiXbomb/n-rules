@@ -17,6 +17,7 @@
         "suppressImplicitAnyIndexErrors": true
     },
     "filesGlob": [
+      "typings/tsd.d.ts",
       "src/**/*.ts"
     ],
     "exclude": [

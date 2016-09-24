@@ -6,7 +6,28 @@
   "bundle": "typings/tsd.d.ts",
   "installed": {
     "mocha/mocha.d.ts": {
-      "commit": "f5bc7b6a5c91559056bef01a22821cc765377b9b"
+      "commit": "47d3b90d02cd2e80b534e7f0c66e1873f4f3424c"
+    },
+    "express/express.d.ts": {
+      "commit": "47d3b90d02cd2e80b534e7f0c66e1873f4f3424c"
+    },
+    "mime/mime.d.ts": {
+      "commit": "47d3b90d02cd2e80b534e7f0c66e1873f4f3424c"
+    },
+    "serve-static/serve-static.d.ts": {
+      "commit": "47d3b90d02cd2e80b534e7f0c66e1873f4f3424c"
+    },
+    "express-serve-static-core/express-serve-static-core.d.ts": {
+      "commit": "47d3b90d02cd2e80b534e7f0c66e1873f4f3424c"
+    },
+    "node/node.d.ts": {
+      "commit": "8eedd1b9f7f009f14435f73c53a88d537c546a02"
+    },
+    "mongoose/mongoose.d.ts": {
+      "commit": "8eedd1b9f7f009f14435f73c53a88d537c546a02"
+    },
+    "mongodb/mongodb.d.ts": {
+      "commit": "8eedd1b9f7f009f14435f73c53a88d537c546a02"
     }
   }
 }

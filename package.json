@@ -1,9 +1,10 @@
 {
   "name": "n-rules",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Business Process Management For Node",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon dist/test",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,10 +24,23 @@
   },
   "homepage": "https://github.com/logiXbomb/n-rules#readme",
   "devDependencies": {
+    "@types/react": "^0.14.37",
+    "@types/react-dom": "^0.14.17",
     "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
     "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
     "babel-preset-stage-0": "^6.5.0",
     "chai": "^3.5.0",
-    "typescript": "^2.0.3"
+    "ts-loader": "^0.8.2",
+    "typescript": "^2.0.3",
+    "webpack": "^1.13.2",
+    "webpack-notifier": "^1.4.1"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongoose": "^4.6.1",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
   }
 }

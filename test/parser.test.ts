@@ -1,9 +1,14 @@
 import Parser from '../src/utilities/parser';
 
 const config = `
-  userTask AnswerInitialReservation: Success {
+  @Secure(LoggedIn)
+  @FullError(true)
+  userTask AnswerInitialReservation(create: Waffles) {
     time: number
     numberOfGuests: number
+  }
+  serverTask UpdateTheThings: Banana {
+    waffles: string
   }
 `;
 
@@ -18,6 +23,7 @@ describe('Config Language Parser', () => {
 
   it('should generate a list of tasks', () => {
     const parser = new Parser(config);
+    console.log(parser)
     expect(parser.tasks).to.not.be.empty;
   });
 
