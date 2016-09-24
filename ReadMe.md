@@ -6,7 +6,7 @@
 
 ## Examples
 ```javascript
-import nRules from './index';
+import nRules from 'n-rules';
 
 const types = `
   @Secure(LoggedIn)

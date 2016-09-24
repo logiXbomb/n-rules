@@ -1,8 +1,8 @@
 {
   "name": "n-rules",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Business Process Management For Node",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "dev": "nodemon dist/test",
     "test": "echo \"Error: no test specified\" && exit 1"
